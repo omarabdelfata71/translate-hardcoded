@@ -1,0 +1,48 @@
+.wpml-hardcoded-translator-add-form {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.wpml-hardcoded-translator-add-form h2 {
+    margin-top: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.wpml-hardcoded-translator-list {
+    margin-top: 30px;
+}
+
+.wpml-hardcoded-translator-list table {
+    margin-top: 10px;
+}
+
+.wpml-hardcoded-translator-list th {
+    font-weight: 600;
+}
+
+.form-table td textarea,
+.form-table td input[type="text"] {
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-table td .description {
+    margin-top: 5px;
+    color: #666;
+}
+
+.notice {
+    margin: 20px 0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+    .form-table td textarea,
+    .form-table td input[type="text"] {
+        max-width: 100%;
+    }
+}
